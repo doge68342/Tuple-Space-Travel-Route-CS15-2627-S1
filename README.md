@@ -28,11 +28,11 @@ basic/
 
 ## Basic Requirements
 
-* [ ] Use the provided `mission_route` tuple without adding, removing, or changing any of its values.
-* [ ] Display the **first destination** and **last destination** by accessing their indices.
-* [ ] Use `len()` to display the total number of destinations in the route.
-* [ ] Use a `for` loop to display every destination in the order it will be visited.
-* [ ] Use `in` to check whether `"Europa"` is included in the route and display an appropriate message.
+* [x] Use the provided `mission_route` tuple without adding, removing, or changing any of its values.
+* [x] Display the **first destination** and **last destination** by accessing their indices.
+* [x] Use `len()` to display the total number of destinations in the route.
+* [x] Use a `for` loop to display every destination in the order it will be visited.
+* [x] Use `in` to check whether `"Europa"` is included in the route and display an appropriate message.
 
 > Fully completing the Basic Requirements earns **16/20 marks, or 80%**.
 
@@ -64,11 +64,11 @@ advanced/
 
 ## Advanced Requirements
 
-* [ ] Use `input()` to ask the user for the name of a destination and confirm whether or not that destination exists in `mission_route`.
-* [ ] If the destination exists, determine and display how many **stops away from the start** of the journey it is. The first destination is `0` stops away from the start.
-* [ ] Determine and display how many **stops away from the end** of the journey the destination is. The final destination is `0` stops away from the end.
-* [ ] If the selected destination is not the final destination, display the **next stop** in the journey.
-* [ ] If the destination does not exist, display an appropriate message instead of attempting to calculate its position or next stop.
+* [x] Use `input()` to ask the user for the name of a destination and confirm whether or not that destination exists in `mission_route`.
+* [x] If the destination exists, determine and display how many **stops away from the start** of the journey it is. The first destination is `0` stops away from the start.
+* [x] Determine and display how many **stops away from the end** of the journey the destination is. The final destination is `0` stops away from the end.
+* [x] If the selected destination is not the final destination, display the **next stop** in the journey.
+* [x] If the destination does not exist, display an appropriate message instead of attempting to calculate its position or next stop.
 
 For example, using the provided route:
 
